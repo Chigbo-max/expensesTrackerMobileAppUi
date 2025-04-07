@@ -1,4 +1,3 @@
-// authSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
@@ -8,7 +7,7 @@ const authSlice = createSlice({
         accessToken: null,
         refreshToken: null,
         isAuthenticated: false,
-        isLoading: true, // Add isLoading to track initialization
+        isLoading: true, 
     },
     reducers: {
         setTokens: (state, action) => {
