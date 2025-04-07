@@ -1,4 +1,3 @@
-// app/_layout.js
 import { Provider } from 'react-redux';
 import { Stack } from 'expo-router';
 import { store } from '../store.jsx';
